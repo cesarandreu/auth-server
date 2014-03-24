@@ -1,0 +1,40 @@
+{
+  "name": "auth-server",
+  "version": "0.1.0",
+  "description": "auth-server for large applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cesarandreu/auth-server.git"
+  },
+  "keywords": [
+    "auth-server",
+    "auth"
+  ],
+  "author": "César Andreu <cesarandreu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarandreu/auth-server/issues"
+  },
+  "homepage": "https://github.com/cesarandreu/auth-server",
+  "dependencies": {
+    "koa": "^0.5.1",
+    "koa-logger": "^1.2.0",
+    "lodash": "^2.4.1",
+    "mongoose": "^3.8.8",
+    "koa-route": "^1.1.1",
+    "koa-router": "^3.1.2",
+    "koa-passport": "^0.2.0",
+    "koa-formidable": "^0.1.0",
+    "koa-jwt": "0.0.3",
+    "mongoose-validator": "^0.2.2",
+    "koa-json": "0.0.2"
+  },
+  "engines": {
+    "node": ">=0.11.12"
+  },
+  "devDependencies": {}
+}
